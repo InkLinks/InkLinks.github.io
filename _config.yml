@@ -35,7 +35,7 @@ owner:
   twitter:        kamalawasthi19
   github:         InkLinks
   instagram:      kamal.awasthi      
-  disqus:         commentsatmyblog
+  disqus:         InkLinks
   location:       "New Delhi, IN"
   # Plug in your disqus shortname!
 
@@ -53,7 +53,7 @@ links:
   - title: About
     url: /about
   - title: Poems
-    url: http://coletownsend.com
+    url: #
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
