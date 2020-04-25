@@ -1,112 +1,138 @@
-## Jasper2
+# Balzac
 
-[![Build Status](https://travis-ci.org/jekyller/jasper2.svg?branch=master)](https://travis-ci.org/jekyller/jasper2)
-[![Ruby](https://img.shields.io/badge/ruby-2.5.1-blue.svg?style=flat)](http://travis-ci.org/jekyller/jasper2)
-[![Jekyll](https://img.shields.io/badge/jekyll-3.7.4-blue.svg?style=flat)](http://travis-ci.org/jekyller/jasper2)
-
-This is a full-featured port of Ghost's default theme [Casper](https://github.com/tryghost/casper)
-*v2.1.9* for [Jekyll](https://jekyllrb.com/) / [GitHub Pages](https://pages.github.com/).
-
-## Live Demo
-
-[Ghost's Casper](https://demo.ghost.io) // [Jasper2](https://jekyller.github.io/jasper2)
-
-![home page](https://raw.githubusercontent.com/jekyller/jasper2/master/assets/screenshot-desktop.jpg)
+This is forked from [minimal mistakes](http://mademistakes.com). I needed some type of framework to build off as I have no experience with Jekyll. Michael set up an awesome dev environment for this which really helped speed up my progress. He also already wrote up an incredibly comprehensive readme.md so I basically copied all of it and replaced what was necessary. The design itself is my own and I cannot let you sell this or tweak the design for resale, unless I you [contact me](mailto:cole@coletownsend.com).
 
 
-## Features
+If you'd like give me credit somewhere on your blog or tweet a shout out to
+[@twnsndco](https://twitter.com/twnsndco), that would be pretty sweet. 
 
-* Out of the box support for multiple authors (via `_data/authors.yml`)
-* Full author information including: picture, bio, website, twitter, facebook, etc.
-* Tag description(s) and personalised covers (via `_data/tags.yml`)
-* Related posts view at the bottom of each post
-* All Ghost default pages: Author page(s), Tag page(s), About page(s), 404, etc.
-* Pagination (infinite scrolling or standard pagination, i.e. posts across multiple pages)
-* Atom Feeds by [Jekyll-feed](https://github.com/jekyll/jekyll-feed)
-* Toggleable subscribe button (requires an external service)
-* Code Syntax Highlight with [highlight.js](https://highlightjs.org/)
-* Support for Google Analytics tracking
-* Support for Disqus comments (not Ghost standard)
+If you feel like donating — [Give it a thought.](http://gtat.me/balzac/donate)
+
+---
 
 
-## Getting Started
+![Balzac for Jekyll](http://cl.ly/Qdzo/Screen%20Shot%202013-08-05%20at%205.35.11%20PM.jpg)
+![Balzac for Jekyll](http://cl.ly/Qdyh/Screen%20Shot%202013-08-05%20at%205.30.01%20PM.jpg)
 
-### Deployment
+## Features:
+- flexible, uses max-width for responsive goodness
+- responsive drop down menu
+- retina images using @2x
+- post loop in the footer showing 3 latest posts
+- custom portfolio page for case studies
 
-**Important:**  For security reasons, Github does not allow plugins (under `_plugins/`) when
-deploying with Github Pages. This means:
+## Basic Setup
 
-**1)** that we need to generate your site locally (more details below) and push the resulting
-HTML (the contents of `_site/` or `../jasper2-pages/`) to a Github repository, that GitHub Pages
-then host;
+1. [Install Jekyll](http://jekyllrb.com) if you haven't already.
+2. Download this bad boy.
+3.  Fork the [Balzac repo](http://github.com/coletownsend/balzac-for-jekyll/)
+4. Twerk it out so it's just for you.
+5.  ???
+6.  Profit
 
-**2)** built the site with [travis-ci](https://travis-ci.org/) (with goodies from
-[jekyll-travis](https://github.com/mfenner/jekyll-travis)) automatically pushing the
-generated HTML files to a *gh-pages* branch.
-This later approach is the one I am currently using to generate the live demo.
-
-**3)** deploy the static website with Jekyll-compatible hosters, such as https://www.netlify.com/, that allow for deployment from the Github repo and publish the website using CDNs. Netlify has a free starter offer.
-
-For option **1)** simply clone this repository (*master branch*), and then run
-`bundle exec jekyll serve` inside the directory. Upload the resulting `_site/` (or `../jasper2-pages/`)
-contents to your repository (*master branch* if uploading as your personal page
-(e.g. username.github.io) or *gh-pages branch* if uploading as a project page
-(as for the [demo](https://github.com/jekyller/jasper2/tree/gh-pages)).
-
-For option **2)** you will need to set up travis-ci for your personal fork. Briefly all you
-need then is to change your details in *[\_config.yml](_config.yml)* so that you can push
-to your github repo. You will also need to generate a secure key to add to your
-*[.travis.yml](.travis.yml)* (you can find more info on how to do it in that file).
-Also make sure you read the documentation from
-[jekyll-travis](https://github.com/mfenner/jekyll-travis). This approach has clear
-advantages in that you simply push your file changes to GitHub and all the HTML files
-are generated for you and pushed to *gh-pages*. Also you get to know if everything is
-still fine with your site builds. Don't hesitate to contact me if you still have any
-issues (see below about issue tracking).
-
-### Author Pages
-
-In order to properly generate author pages you need to rename the field *author* in the
-front matter of every post to match that of your each author's *username* as defined
-in the *[\_data/authors.yml](_data/authors.yml)* file.
-With the latest update, multiple author blogs are now supported out of the box.
-
-### Compiling Styles
-
-Following on the way Casper styles are compiled as [described here](https://github.com/tryghost/casper#development):
-
-Jasper2 styles are compiled using Gulp/PostCSS to polyfill future CSS spec. You'll need Node and Gulp installed globally. After that, from the theme's root directory:
-
-```bash
-$ npm install
-$ gulp
+## [Preview the Theme](http://jekyll.gtat.me)
+=======
+ [Preview the Theme](http://jekyll.gtat.me)
+ 
+``` bash
+balzac-for-jekyll/
+├── _includes
+|    ├── footer.html  //site footer
+|    ├── head.html  //site head
+|    ├── head-dark.html  //dark site head for light pages
+├── _layouts
+|    ├── home.html  //homepage layout
+|    ├── page.html  //page layout
+|    ├── post-index.html  //post listing layout
+|    └── post.html  //post layout
+|    ├── post-no-feature.html  //feature image-less post layout
+├── _posts
+├── assets
+|    ├── css  //preprocessed less styles. good idea to minify
+|    ├── img  //images and graphics used in css and js
+|    ├── js
+|    |   ├── main.js  //jQuery plugins and settings
+|    |   └── vendor  //all 3rd party scripts
+|    └── sass 
+├── images  //images for posts and pages
+├── about.md  //about page
+├── articles.md  //lists all posts from latest to oldest
+└── index.md  //homepage. lists 5 most recent posts
 ```
 
-Now you can edit `/assets/css/` files, which will be compiled to `/assets/built/` automatically.
+# Customization
 
-## Issues and Contributing
+## _config.yml
 
-This install builds well with Ruby v2.5.1 and Jekyll v3.7.4. If you run into any problems
-please log them on the [issue tracker](https://github.com/jekyller/jasper2/issues).
+Most of the variables found here are used in the .html files found in `_includes` if you need to add or remove anything. A good place to start would be to change the title, tagline, description, and url of your site. When working locally comment out `url` or else you will get a bunch of broken links because they are absolute and prefixed with `{{ site.url }}` in the various `_includes` and `_layouts`. Just remember to uncomment `url` when building for deployment or pushing to **gh-pages**...
 
-Feel free pull-request your patches and fixes.
+### Owner/Author Information
 
-## Thanks
-
-
-Many thanks to the Ghost team for all the design work. Also many thanks to all contributors,
-that help keeping the project alive and updated :smile:
+Change your name, bio, Twitter url, email, Dribbble URL, etc.
 
 
-## Copyright & License
+### Top Navigation Links
 
-Same licence as the one provided by Ghost's team. See Casper's theme [license](GHOST.txt).
+Edit page/post titles and URLs to include in the site's navigation. For external links add `external: true`.
 
-Copyright (C) 2015-2018 - Released under the MIT License.
+``` yaml
+# sample top navigation links
+links:
+  - title: About Page
+    url: /about
+  - title: Other Page
+    url: /other-page
+  - title: External Page
+    url: http://coletownsend.com
+    external: true
+```
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+## Other Stuff
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+The rest is just your average Jekyll config settings. Nothing too crazy here...
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+### _includes
+
+For the most part you can leave these as is since the author/owner details are pulled from `_config.yml`. That said you'll probably want to customize the copyright stuff in `footer.html` to your liking.
+
+### Adding Posts and Pages
+
+There are two main content layouts: `post.html` (for posts) and `page.html` (for pages). Both have large **feature images** that span the full-width of the screen, and both are meant for text heavy blog posts (or articles). 
+
+### Feature Images
+
+A good rule of thumb is to keep feature images nice and wide so you don't push the body text too far down. An image cropped around around 1024 x 256 pixels will keep file size down with an acceptable resolution for most devices. 
+
+``` yaml
+image:
+# local image 
+  feature: feature-image-filename.jpg
+# link image
+  feature: "http(s)://image.domain.com/feature-image-filename.jpg"
+```
+
+This makes the assumption that the feature image is in the *images* folder unless it has a link address. To add a feature image to a post or page just include the filename in the front matter like so.
+You can "serve" images responsively with retina.js. All you need to do is have a file with @2x before the file type. That should be placed in the *images* folder. You literally don't have to do anything other than that. 2 copies. One is linked. That's it.
+Ex:
+`cool-photo@2x.jpg` 
+
+**There is a default feature image that will show up for and posts. It isn't retina or anything. It's just there in case you want one but forget <3*
+
+#### If you don't want a feature image
+…just say so in the front-matter. Go to your-post-name.md and make sure it has this guy up top.
+```
+layout: post-no-feature
+```
+
+### Categories
+
+In the sample `_posts` folder you may have noticed `category: articles` in the front matter. I like keeping all posts grouped in the same folder. If you decide to rename or add categories you will need to modify the permalink in `articles.md` along with the filename (if renaming).
+
+For example. Say you want to group all your posts under `blog/` instead of `articles/`. In your post add `category: blog` to the front matter, rename or duplicate `articles.md` to `blog.md` and change the permalink in that file to `permalink: /blog/index.html`.
+
+If done correctly `/blog` should be a page listing all the site's posts.
+
+
+## License
+
+This is free to use, fork, do whatever you want. Please *do not* sell this design though. You don't need to link me to it, but please contact me if you intend to market this theme. I am releasing premium versions of this design for select CMS's. 
