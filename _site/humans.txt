@@ -1,0 +1,14 @@
+/* TEAM */
+Creator: Kamal Awasthi
+Contact: author@inklinks.me
+Twitter: kamalawasthi19
+Location: New Delhi, IN
+                           
+/* THANKS */                           
+Creator of Balzac theme: Cole Townsend
+Twitter: @twnsndco
+
+/* SITE */                         
+Last update: 2020-04-25
+Standards: HTML, SCSS, Jekyll                        
+Software: git
