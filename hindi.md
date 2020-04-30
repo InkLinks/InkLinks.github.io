@@ -1,6 +1,6 @@
 ---
 layout: hindi
 permalink: /hindi/index.html
-title: "All Poems from Inklinks"
+title: "Hindi Poems"
 tags: [blog, poems]
 ---

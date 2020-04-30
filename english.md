@@ -1,6 +1,6 @@
 ---
 layout: articles
 permalink: /english/index.html
-title: "All Poems from Inklinks"
+title: "English Poems"
 tags: [blog, poems]
 ---

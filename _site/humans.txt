@@ -1,7 +1,7 @@
 /* TEAM */
 Creator: Kamal Awasthi
 Contact: author@inklinks.me
-Twitter: kamalawasthi19
+Twitter: inklinks1
 Location: New Delhi, IN
                            
 /* SITE */                         

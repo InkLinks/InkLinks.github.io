@@ -5,33 +5,34 @@ comments: true
 category: english
 ---
 
-“I have a story to tell, 
-I was standing next to a deep well,
-Believe me! I was so deep,
-perhaps it went down to hell
+“I have a story to tell,<br/> 
+I was standing next to a deep well,<br/>
+Believe me! I was so deep,<br/>
+perhaps it went down to hell<br/>
 
-I was too afraid to peep in,
-Alas! I advertently gave it my shining coin,
-I looked and looked as far as I could,
-but “how did I end up in this scary dark wood?”
+I was too afraid to peep in,<br/>
+Alas! I advertently gave it my shining coin,<br/>
+I looked and looked as far as I could,<br/>
+but “how did I end up in this scary dark wood?”<br/>
 
-Please daddy come and help me here, 
-You must be watching me, hiding somewhere,
-for you never leave me alone like this,
-please come out I am very scared
+Please daddy come and help me here, <br/>
+You must be watching me, hiding somewhere,<br/>
+for you never leave me alone like this,<br/>
+please come out I am very scared<br/>
 
-And flying came a man in a radiant red cape,
-jumped into the well like an agile ape
-He said,” Your dad sent me, I am here to help”
-giving back my shining precious, covered in kelp
+And flying came a man in a radiant red cape,<br/>
+jumped into the well like an agile ape<br/>
+He said,” Your dad sent me, I am here to help”<br/>
+giving back my shining precious, covered in kelp<br/>
 
 
-I got back my shining coin, yeyy!! 
-you are a hero dad, you saved the day.”
-said my child, after waking up in morning today
-I replied,” Haha! Thanks my darling. “
+I got back my shining coin, yeyy!!<br/> 
+you are a hero dad, you saved the day.”<br/>
+said my child, after waking up in morning today<br/>
+I replied,” Haha! Thanks my darling. “<br/>
 
-As she left to make a fort out of clay
-I really felt like a hero on that fine day,
-yeah I know I did not do anything at all,
-but you know what?, actually she made my day.
+As she left to make a fort out of clay<br/>
+I really felt like a hero on that fine day,<br/>
+yeah I know I did not do anything at all,<br/>
+but you know what?, actually she made my day.<br/>
+{: .text-justify}

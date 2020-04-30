@@ -1,5 +1,5 @@
 ---
 layout: home
-title: "Recent posts from Inklinks"
+title: "Recent posts"
 tags: [Jekyll, blog, template]
 ---
