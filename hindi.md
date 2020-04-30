@@ -1,6 +1,6 @@
 ---
 layout: articles
-permalink: /articles/index.html
+permalink: /hindi/index.html
 title: "All Poems from Inklinks"
 tags: [blog, poems]
 ---

@@ -2,7 +2,7 @@
 layout: post-no-feature
 title: "You are my hero Dad!"
 comments: true
-category: articles
+category: english
 ---
 
 “I have a story to tell, 

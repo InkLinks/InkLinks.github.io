@@ -52,9 +52,11 @@ opengraph:
 links:
   - title: About
     url: /about
-  - title: All Poems
-    url: /articles
-    external: true
+  - title: English Poems
+    url: /english
+    # external: true
+  - title: Hindi Poems
+    url: /hindi
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Kolkata
