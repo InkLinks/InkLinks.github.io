@@ -1,6 +1,6 @@
 ---
-layout: home
+layout: articles
 permalink: /articles/index.html
-title: "Articles"
-tags: [blog, graphic design]
+title: "All Poems from Inklinks"
+tags: [blog, poems]
 ---

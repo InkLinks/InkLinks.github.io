@@ -21,8 +21,8 @@ plugins:
 - jekyll-language-plugin
 
 
-title:            Inklinks 
-tagline:          Poems of my Heart
+title:            Inklinks of my Heart
+tagline:          Poems from my Heart
 description:      A curated collection of soothing and heart touching poems written by Kamal Awasthi.
 canonical: http://inklinks.me
 
@@ -52,8 +52,8 @@ opengraph:
 links:
   - title: About
     url: /about
-  - title: Poems
-    url: #
+  - title: All Poems
+    url: /articles
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -62,6 +62,8 @@ future:      true
 highlighter: pygments
 markdown:    kramdown
 
+paginate: 5 # jekyll-paginate > items per page
+paginate_path: home/page:num # jekyll-paginate > blog page
 kramdown:
   auto_ids: true
   footnote_nr: 1

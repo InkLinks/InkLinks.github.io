@@ -1,26 +1,16 @@
 ---
 layout: post
 permalink: /about/index.html
-title: About the Theme
-description: Balzac is a new, fluid & responsive theme for Jekyll (and AnchorCMS). It's gloriously beautiful and suited to long form. Built on a SCSS foundation, it's organized and awesome.
-tags: [about, Jekyll, theme, responsive]
+title: About Inklinks
+tags: [about, poet, bio]
 image:
   feature: soft-trees.jpg
 ---
 
-This is built on Semantic.gs grid framework which I edited a bit to make it fluid. I hope you enjoy using, forking, whatevering this theme as much as I did making it. 
+Inklinks writes poems in two languages, English and Hindi. He has wrote many poems for annual day functions and for many other occasions in his school days. He got his motivations to make writing a hobby from his mother when she praised after reading one poem Inklinks wrote in his free time just for fun. Inklinks has B.Tech. degree in Computer Science while currently being a final year M.Tech. student. Inklinks is author's pen-name.
 
-### Features
-* flexible, uses max-width for responsive goodness
-* responsive drop down menu
-* retina images using @2x
-* post loop in the footer showing 3 latest post
-* custom portfolio page for case studies
+### The pen-name
+Inklinks was suggested as a pen-name by author's most special friend. Inklinks refers to the links connected by ink, which is the foundations of writing. One can also take the meaning of Inklinks as words. We form words by making links of inks on paper. These words together make a poem.
 
-### Acknowledgements
-I utilized my own HTML templates, but had no prior knowledge of liquid nor the required Jekyll system file format. I took [Michael Rose](http://twitter.com/mmistakes)'s theme [Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes/). Having a prebuilt archive and the YAML front-matter already set up was a great help. 
-
- The lovely font shown here is Calendas. For full splendor on your blog, I suggest you [head over and buy that](http://calendasplus.com/). The full family is 3 weights and costs $3. Many thanks to Daniel Bruce for the wonderful Entypo icons. Those can be picked up at [entypo.com](http://entypo.com), but are included with the source files. It's also <b>retina ready</b> via retina.js. Check out how that works over at [retinajs.com](http://retinajs.com).
-
-### The Name
-Balzac was a famous writer, known for his beautiful prose. I read some Balzac in school, but mostly feel comfort in the name of my favorite coffee shop in Stratford, Ontario. 
+### Liked Inkliks's work?
+Why not send him some greetings? Inklinks would love to hear your feedback about his work and him. Write him at <author@inklinks.me> or share his work on twitter by clicking the button below.
