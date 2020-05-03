@@ -11,7 +11,7 @@ Believe me! I was so deep,<br/>
 perhaps it went down to hell<br/>
 
 I was too afraid to peep in,<br/>
-Alas! I advertently gave it my shining coin,<br/>
+Alas! I inadvertently gave it my shining coin,<br/>
 I looked and looked as far as I could,<br/>
 but “how did I end up in this scary dark wood?”<br/>
 
