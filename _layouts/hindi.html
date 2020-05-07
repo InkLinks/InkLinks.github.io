@@ -6,7 +6,7 @@
                  <lh><h2><span class="bb">{{ page.title }}</span></h2></lh><br><br>
                  <ul class="post-list">
                   {% for post in site.posts %}
-                    {% if post.categories contains "hindi" %}
+                    {% if post.categories contains "english" %}
                       {% assign currentdate = post.date | date: "%B %Y" %}
                       {% if currentdate != date %}
                         <li id="y{{currentdate}}">{{ currentdate }}</li>
@@ -15,6 +15,7 @@
                         <li>
                           <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
                               <h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
+                              <p class="date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></p>
                               <p class="">{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 120 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
                           </div>
                         </li>
