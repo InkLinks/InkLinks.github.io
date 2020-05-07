@@ -40,8 +40,34 @@
 
 <!-- Icons -->
 <!-- 16x16 -->
-<link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
+<link rel="shortcut icon" href="{{ site.url }}/icon.png">
+<style>
+/*.dropbtn {
+  color: $black;
+  border: none;
+}
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 15px 0px;
+  display: block;
+}
+
+
+.dropdown:hover .dropdown-content {display: block;border: 1px;}*/
+
+</style>
 <div id="bump">
   <body class="">
     <header class="site-header darken">
@@ -55,11 +81,18 @@
             <li>
               <a href="/" title="{{ site.title }}">Home</a>
             </li>
-            
             {% for link in site.links %}
                 <li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
             {% endfor %}
-
+<!--             <li>
+              <div class="dropdown">
+                <span class="dropbtn">Categories</span>
+                <div class="dropdown-content">
+                  <a href="/hindi/index.html">Hindi Poems</a>
+                  <a href="/english/index.html">English Poems</a>
+                </div>
+              </div>
+            </li> -->
           </ul>
         </nav>
       </div>

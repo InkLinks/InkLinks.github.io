@@ -1,92 +1,74 @@
 exclude:
-- README.md
-- CODE_OF_CONDUCT.md
-- CONTRIBUTING.md
-- screenshot.png
-- LICENSE
-- CNAME
-- Gemfile
-- Gemfile.lock
-- demo/*
-
+  - lib
+  - config.rb
+  - Capfile
+  - config
+  - log
+  - Rakefile
+  - Rakefile.rb
+  - tmp
 plugins:
-- jekyll-sitemap
-- jekyll-mentions
-- jekyll-paginate
-- jekyll-seo-tag
-- jekyll-redirect-from
-- jekyll-feed
-- jemoji
-- jekyll-seo-tag
-- jekyll-language-plugin
-
-
-title:            Inklinks of my Heart
-tagline:          Poems from my Heart
-description:      A curated collection of soothing and heart touching poems written by Kamal Awasthi.
-canonical: http://inklinks.me
-
-# Owner/author information
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-feed
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-language-plugin
+title: Inklinks of my Heart
+tagline: Poems from my Heart
+description: >-
+  A curated collection of soothing and heart touching poems written by Kamal
+  Awasthi.
+canonical: 'http://inklinks.me'
 owner:
-  name:           Kamal Awasthi
-  avatar:         avatar.png
-  bio:            "Poet and Engineer"
-  email:          author@inklinks.me
-  twitter:        inklinks1
-  github:         InkLinks
-  instagram:      kamal.awasthi      
-  disqus:         InkLinks
-  location:       "New Delhi, IN"
-  # Plug in your disqus shortname!
-
+  name: Kamal Awasthi
+  avatar: avatar.png
+  bio: Poet and Engineer
+  email: author@inklinks.me
+  twitter: inklinks1
+  github: InkLinks
+  instagram: inklinks_of_my_heart
+  disqus: InkLinks
+  location: 'New Delhi, IN'
 tools:
-  standards:      "HTML, SCSS, Jekyll"
-  software:       "git"
-
-# Open Graph customization
+  standards: 'HTML, SCSS, Jekyll'
+  software: git
 opengraph:
-  locale:           en_US
-
-# Links to include in top navigation
-# For external links add external: true
+  locale: en_US
 links:
   - title: About
     url: /about
   - title: English Poems
     url: /english
-    # external: true
   - title: Hindi Poems
     url: /hindi
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Kolkata
-future:      true
+    category:
+      title: english
+      New field 10: /english
+timezone: Asia/Kolkata
+future: true
 highlighter: pygments
-markdown:    kramdown
-
-paginate: 5 # jekyll-paginate > items per page
-paginate_path: home/page:num # jekyll-paginate > blog page
+markdown: kramdown
+paginate: 5
+paginate_path: 'home/page:num'
 kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
   enable_coderay: false
-
   coderay:
-    coderay_line_numbers:
+    coderay_line_numbers: null
     coderay_line_numbers_start: 1
     coderay_tab_width: 4
     coderay_bold_every: 10
     coderay_css: class
-
 sass:
-    style: :compressed
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
-
+  style: ':compressed'
+permalink: '/:categories/:title'
+include:
+  - .htaccess
 theme: jekyll-theme-balzac

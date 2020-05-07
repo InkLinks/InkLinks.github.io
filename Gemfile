@@ -15,4 +15,5 @@ group :jekyll_plugins do
   gem 'jekyll-theme-balzac'
   gem "jekyll-redirect-from"
   gem "jekyll-language-plugin"
+  gem 'jekyll-admin', group: :jekyll_plugins
 end
