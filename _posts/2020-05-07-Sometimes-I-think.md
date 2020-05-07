@@ -1,6 +1,6 @@
 ---
 layout: post-no-feature
-title: "SCHOOL OF MY DREAMS"
+title: "Sometimes I think..."
 comments: true
 category: hindi
 ---
