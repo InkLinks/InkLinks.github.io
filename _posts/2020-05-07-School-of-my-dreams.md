@@ -1,6 +1,6 @@
 ---
 layout: post-no-feature
-title: "Sc hool of My Dreams"
+title: "School of My Dreams"
 comments: true
 category: english
 ---
