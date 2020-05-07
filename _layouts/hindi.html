@@ -6,7 +6,7 @@
                  <lh><h2><span class="bb">{{ page.title }}</span></h2></lh><br><br>
                  <ul class="post-list">
                   {% for post in site.posts %}
-                    {% if post.categories contains "english" %}
+                    {% if post.categories contains "hindi" %}
                       {% assign currentdate = post.date | date: "%B %Y" %}
                       {% if currentdate != date %}
                         <li id="y{{currentdate}}">{{ currentdate }}</li>
