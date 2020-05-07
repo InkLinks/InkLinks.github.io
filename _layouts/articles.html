@@ -32,12 +32,12 @@
                       </ol>
                       <h3 id="{{ next_year }}-ref">{{next_year}}</h3>
                       <h4 id="{{ next_year }}-{{ next_month }}-ref">{{ next_month }}</h4>
-                      <ol>
+                      <ol class="post-list">
                       {% else %}    
                           {% if this_month != next_month %}
                           </ol>
                           <h3 id="{{ this_year }}-{{ next_month }}-ref">{{ next_month }}</h3>
-                          <ol>
+                          <ol class="post-list">
                           {% endif %}
                       {% endif %}
                   {% endif %}
