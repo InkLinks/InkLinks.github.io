@@ -14,7 +14,7 @@
                       {% if forloop.first %}
                         <h3 id="{{ this_year }}-ref">{{this_year}}</h3>
                         <h4 id="{{ this_year }}-{{ this_month }}-ref">{{ this_month }}</h4>
-                        <ol class="post-list">
+                        <ul class="post-list">
                       {% endif %}
 
                       <li>
@@ -26,18 +26,18 @@
                       </li>
 
                       {% if forloop.last %}
-                        </ol>
+                        </ul>
                       {% else %}
                           {% if this_year != next_year %}
-                            </ol>
+                            </ul>
                             <h3 id="{{ next_year }}-ref">{{next_year}}</h3>
                             <h4 id="{{ next_year }}-{{ next_month }}-ref">{{ next_month }}</h4>
-                            <ol class="post-list">
+                            <ul class="post-list">
                           {% else %}    
                               {% if this_month != next_month %}
-                              </ol>
+                              </ul>
                               <h3 id="{{ this_year }}-{{ next_month }}-ref">{{ next_month }}</h3>
-                              <ol class="post-list">
+                              <ul class="post-list">
                           {% endif %}
                       {% endif %}
                     {% endif %}
