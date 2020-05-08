@@ -22,7 +22,8 @@ tagline: Poems from my Heart
 description: >-
   A curated collection of soothing and heart touching poems written by Kamal
   Awasthi.
-canonical: 'http://inklinks.me'
+canonical: 'https://inklinks.me'
+url: '//InkLinks.github.io'
 owner:
   name: Kamal Awasthi
   avatar: avatar.png
