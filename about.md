@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: //about/index.html
+permalink: /about/index.html
 title: About Inklinks
 tags: [about, poet, bio]
 image:

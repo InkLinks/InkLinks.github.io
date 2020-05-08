@@ -22,8 +22,7 @@ tagline: Poems from my Heart
 description: >-
   A curated collection of soothing and heart touching poems written by Kamal
   Awasthi.
-canonical: 'https://inklinks.me'
-url: '//InkLinks.github.io'
+canonical: 'http://inklinks.me'
 owner:
   name: Kamal Awasthi
   avatar: avatar.png
@@ -41,14 +40,14 @@ opengraph:
   locale: en_US
 links:
   - title: About
-    url: //about
+    url: /about
   - title: English Poems
-    url: //english
+    url: /english
   - title: Hindi Poems
-    url: //hindi
+    url: /hindi
     category:
       title: english
-      New field 10: //english
+      New field 10: /english
 timezone: Asia/Kolkata
 future: true
 highlighter: pygments
@@ -69,7 +68,7 @@ kramdown:
     coderay_css: class
 sass:
   style: ':compressed'
-permalink: '//:categories/:title'
+permalink: '/:categories/:title'
 include:
   - .htaccess
 theme: jekyll-theme-balzac
