@@ -1,7 +1,25 @@
 {% if page.image.feature %}
 
 {% include head.html %}
+<style type="text/css">
+  .PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
 
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: right;
+}
+</style>
 <section class="article">
 
   <div class="overlay"></div>
@@ -15,7 +33,19 @@
 {% endif %}
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0"></script>
+<div class="row">
+<div class="col text-left">
+{% if page.previous.url %}
+{{page.previous.title}}
+{% endif %}
+</div>
 
+<div class="col text-right">
+{% if page.next.url %}
+{{page.next.title}}
+{% endif %}
+</div>
+</div>
       <article class="wrap post">
         <header class="post-header">
           <hgroup>
@@ -24,7 +54,6 @@
             <p class="intro">{% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %}</p>
           </hgroup>
         </header>
-
         {{ content }}
 
       <a class="share" href="https://twitter.com/intent/tweet?text=&quot;{{ page.title }}&quot;%20{{ site.canonical }}{{ page.url }}%20via%20&#64;{{ site.owner.twitter }}" data-dnt="true">Share</a>
@@ -48,7 +77,14 @@
         <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
       </aside>
       {% endif %}
-
+      <div class="PageNavigation">
+        {% if page.previous.url %}
+          <p><a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a></p>
+        {% endif %}
+        {% if page.next.url %}
+          <p><a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a></p>
+        {% endif %}
+      </div>
       </article>
     </section>
 </div>
