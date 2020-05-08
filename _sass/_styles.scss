@@ -1,5 +1,13 @@
 /************ Basic *************/
+  .PageNavigation {
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
 
+.PageNavigation .next {
+  text-align: right;
+}
 body {
   font-family: $serif;
   color: $black;
