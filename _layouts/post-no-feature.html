@@ -20,7 +20,6 @@
   text-align: right;
 }
 </style>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <section class="article">
 
   <div class="overlay"></div>
@@ -34,19 +33,7 @@
 {% endif %}
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0"></script>
-<div class="row">
-<div class="col text-left">
-{% if page.previous.url %}
-{{page.previous.title}}
-{% endif %}
-</div>
 
-<div class="col text-right">
-{% if page.next.url %}
-{{page.next.title}}
-{% endif %}
-</div>
-</div>
       <article class="wrap post">
         <header class="post-header">
           <hgroup>
