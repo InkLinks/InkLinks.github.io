@@ -36,10 +36,10 @@
         {{ content }}
           <div  style="display: inline-block;min-width:100%;">
           {% if page.previous.url %}
-            <h5><a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a></h5>
+            <h5><a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
           {% endif %}
           {% if page.next.url %}
-            <h5><a style="text-align:right;float:right;" href="{{page.next.url}}">{{page.next.title}} &raquo;</a></h5>
+            <a style="text-align:right;float:right;" href="{{page.next.url}}">{{page.next.title}} &raquo;</a></h5>
           {% endif %}
         </div>
 <!--       <a class="share" href="https://twitter.com/intent/tweet?text=&quot;{{ page.title }}&quot;%20{{ site.canonical }}{{ page.url }}%20via%20&#64;{{ site.owner.twitter }}" data-dnt="true">Share</a>
