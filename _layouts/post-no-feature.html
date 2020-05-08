@@ -1,6 +1,7 @@
-{% if page.image.feature %}
+---
+---
 
-{% include head.html %}
+@import "{{ site.theme }}";
 <style type="text/css">
   .PageNavigation {
   display: block;
@@ -12,6 +13,10 @@
   float: right;
 }
 </style>
+{% if page.image.feature %}
+
+{% include head.html %}
+
 <section class="article">
 
   <div class="overlay"></div>
