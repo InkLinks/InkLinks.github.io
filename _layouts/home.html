@@ -22,9 +22,8 @@
 
 
 
-<!-- pagination -->
 {% if paginator.total_pages > 1 %}
-<div class="pagination">
+<div class="wj-pagination"> 
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
   {% else %}
@@ -33,7 +32,7 @@
 
   {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
-      <span class="webjeda">{{ page }}</span>
+      <span class="active">{{ page }}</span>
     {% elsif page == 1 %}
       <a href="/">{{ page }}</a>
     {% else %}
@@ -48,29 +47,26 @@
   {% endif %}
 </div>
 {% endif %}
-<style>
-  pagination {
-    min-width: 100%;
-  }
 
-  pagination a, .pagination span {
+<style>
+.wj-pagination {
+    text-align: center;
+}
+
+.wj-pagination a, .wj-pagination span {
     padding: 7px 18px;
     border: 1px solid #eee;
     margin-left: -2px;
     margin-right: -2px;
+    background-color: #ffffff;
     display: inline-block;
-  }
+}
 
-.pagination a {    
-    &:hover {
-        color: #333;
-    }
- }
-
-.pagination {
-    text-align: center;
- }
-</style> 
+.wj-pagination a:hover {    
+    background-color: #f1f1f1;
+    color: #333;
+}
+</style>
 
   {% include footer.html %}
     </div> 
