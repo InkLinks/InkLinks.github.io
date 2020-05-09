@@ -44,7 +44,9 @@ links:
   - title: English Poems
     url: /english
   - title: Hindi Poems
-    url: /hindi
+    url: /hindi  
+  - title: Search Poem
+    url: /search
     category:
       title: english
       New field 10: /english
