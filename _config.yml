@@ -52,7 +52,7 @@ timezone: Asia/Kolkata
 future: true
 highlighter: rouge
 markdown: kramdown
-paginate: 3
+paginate: 6
 paginate_path: inklinks/page:num/
 kramdown:
   auto_ids: true
