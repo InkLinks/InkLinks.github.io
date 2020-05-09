@@ -1,5 +1,5 @@
 ---
-title: Search the content on site...
+title: Quickly find any poem
 excerpt: "Search for a page or post you're looking for"
 ---
 
