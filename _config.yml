@@ -50,7 +50,7 @@ links:
       New field 10: /english
 timezone: Asia/Kolkata
 future: true
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 paginate: 3
 paginate_path: 'inklinks/page:num'
