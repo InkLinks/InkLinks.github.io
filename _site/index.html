@@ -9,7 +9,7 @@
 <!-- DSLs for various open graph languages -->
 <meta property="og:locale" content="en_US">
 <meta property="og:title" content="Recent posts &#8211; Inklinks of my Heart">
-<meta property="og:description" content="{% for post in paginator.posts %}{{post.title}}{% endfor %}{% if paginator.total_pages > 1 %}  {% if paginator.previo...">
+<meta property="og:description" content="">
 <meta property="og:url" content="http://localhost:4000/">
 <meta property="og:site_name" content="Inklinks of my Heart">
 
@@ -98,6 +98,8 @@
             
                 <li><a href="http://localhost:4000/hindi">Hindi Poems</a></li>
             
+                <li><a href="http://localhost:4000/search">Search Poem</a></li>
+            
 <!--             <li>
               <div class="dropdown">
                 <span class="dropbtn">Categories</span>
@@ -132,7 +134,32 @@
               </ol>
           </article>
         </section>
-        <div class="push"></div>
+
+
+
+
+
+<style>
+.wj-pagination {
+    text-align: center;
+}
+
+.wj-pagination a, .wj-pagination span {
+    padding: 7px 18px;
+    border: 1px solid #eee;
+    margin-left: -2px;
+    margin-right: -2px;
+    background-color: #ffffff;
+    display: inline-block;
+}
+
+.wj-pagination a:hover {    
+    background-color: #f1f1f1;
+    color: #333;
+}
+</style>
+
+  <div class="push"></div>
   <footer>
     <aside class="wrap">
       <ol class="prev-posts">
@@ -174,27 +201,4 @@
   </div></body>
 </html>
 
-    </div>
-
-
-
-
-<style>
-.wj-pagination {
-    text-align: center;
-}
-
-.wj-pagination a, .wj-pagination span {
-    padding: 7px 18px;
-    border: 1px solid #eee;
-    margin-left: -2px;
-    margin-right: -2px;
-    background-color: #ffffff;
-    display: inline-block;
-}
-
-.wj-pagination a:hover {    
-    background-color: #f1f1f1;
-    color: #333;
-}
-</style>
+    </div> 
