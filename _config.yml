@@ -52,8 +52,8 @@ timezone: Asia/Kolkata
 future: true
 highlighter: rouge
 markdown: kramdown
-paginate: 3
-paginate_path: 'inklinks/page:num'
+paginate: 6
+paginate_path: /page:num/
 kramdown:
   auto_ids: true
   footnote_nr: 1
@@ -71,4 +71,3 @@ sass:
 permalink: '/:categories/:title'
 include:
   - .htaccess
-theme: jekyll-theme-balzac
