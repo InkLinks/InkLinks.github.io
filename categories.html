@@ -11,21 +11,18 @@ title: Categories
                      {% capture category_name %}{{ category | first }}{% endcapture %}
                      <div id="#{{ category_name | slugize }}"></div>
                      <p></p>
-
                      <h1 class="category-head">{{ category_name }}</h1>
                      <a name="{{ category_name | slugize }}"></a>
-                     <ul>
                      {% for post in site.categories[category_name] %}
+                     <li>
                      <article class="archive-item">
-                       <li>
                          <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
                              <h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
                              <p class="">{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 120 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
                          </div>
-                       </li>
                      </article>
+                   </li>
                      {% endfor %}
-                   </ul>
                    </div>
                  {% endfor %}
               </ol>
