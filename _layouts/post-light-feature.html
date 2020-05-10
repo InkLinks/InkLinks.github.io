@@ -134,7 +134,7 @@
         </h4>
       </div>
       <hr style="height:1px;">
-      <div class="rect">
+      <div class="rect" style="margin-top: -5px;">
         <h4>Also Read:</h4>
         {% assign maxRelated = 3 %}
         {% assign minCommonTags =  1 %}
@@ -161,8 +161,8 @@
 
                 <a href="{{ site.baseurl }}{{ post.url }}">
                     <div class="rel">
-                        <h4>{{ post.title }}</h4>
-                        <p class="" style="font-size: 14px;">{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 80 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 80 }}{% endif %}</p>
+                        <center><h4>{{ post.title }}</h4>
+                        <p class="" style="font-size: 14px;">{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 60 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 60 }}{% endif %}</p></center>
                         <!-- <img width="100%" src="/thumbs/{{post.image.feature}}"> -->
                     </div>
                 </a>
