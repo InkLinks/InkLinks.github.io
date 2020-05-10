@@ -2,6 +2,7 @@
 layout: post-no-feature
 title: "SCHOOL OF MY DREAMS"
 comments: true
+tags: [english, dream, fantasy, chocolate, school]
 category: english
 ---
 

@@ -2,7 +2,6 @@
 layout: post
 permalink: /about/index.html
 title: About Inklinks
-tags: [about, poet, bio]
 image:
   feature: soft-trees.jpg
 ---
