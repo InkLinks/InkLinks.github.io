@@ -2,7 +2,7 @@
 layout: post-no-feature
 title: "SCHOOL OF MY DREAMS"
 comments: true
-tags: [english, life, options, thinking, dream]
+tags: [english, life, options, thinking, dream, chocolate, school]
 category: english
 ---
 

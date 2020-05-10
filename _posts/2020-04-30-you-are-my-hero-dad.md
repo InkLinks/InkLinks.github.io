@@ -2,7 +2,7 @@
 layout: post-no-feature
 title: "You are my hero Dad!"
 comments: true
-tags: [english, life, options, thinking, dream]
+tags: [english, parenting, father, fatherhood, dream]
 category: english
 ---
 
