@@ -3,24 +3,22 @@ layout: page
 permalink: /categories/
 title: Categories
 ---
-    <div id='bump'>
-        <div id="archives">
-                 {% for category in site.categories %}
-                   <div class="archive-group">
-                     {% capture category_name %}{{ category | first }}{% endcapture %}
-                     <div id="#{{ category_name | slugize }}"></div>
-                     <p></p>
-                     <h1 class="category-head" style="margin-top: 10px;margin-bottom: 5px;">{{ category_name }}</h1>
-                     <a name="{{ category_name | slugize }}"></a>
-                     {% for post in site.categories[category_name] %}
-                     <article class="archive-item">
-                         <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-                             <h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
-                             <p class="">{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 50 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 50 }}{% endif %}</p>
-                         </div>
-                     </article>
-                     {% endfor %}
-                   </div>
-                 {% endfor %}
-        </div>
-      </div>
+
+
+<div id="archives">
+{% for category in site.categories %}
+  <div class="archive-group">
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div id="#{{ category_name | slugize }}"></div>
+    <p></p>
+
+    <h3 class="category-head">{{ category_name }}</h3>
+    <a name="{{ category_name | slugize }}"></a>
+    {% for post in site.categories[category_name] %}
+    <article class="archive-item">
+      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+    </article>
+    {% endfor %}
+  </div>
+{% endfor %}
+</div>
