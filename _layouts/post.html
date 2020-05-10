@@ -85,6 +85,7 @@
         }
 
         .rel {
+            padding-left: 5px;
             border: 1px solid; 
             width: 30%;
             display: inline-block;
@@ -157,7 +158,7 @@
 
                 <a href="{{ site.baseurl }}{{ post.url }}">
                     <div class="rel">
-                        <h4>{{ post.title }}</h4>
+                        <center><h4>{{ post.title }}</h4></center>
                         <p class="" style="font-size: 14px;">{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 60 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 60 }}{% endif %}</p>
                         <!-- <img width="100%" src="/thumbs/{{post.image.feature}}"> -->
                     </div>
