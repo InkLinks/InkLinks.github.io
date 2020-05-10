@@ -16,7 +16,7 @@ title: Categories
                      <article class="archive-item">
                          <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
                              <h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
-                             <p class="">{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 120 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+                             <p class="">{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 50 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 50 }}{% endif %}</p>
                          </div>
                      </article>
                      {% endfor %}
