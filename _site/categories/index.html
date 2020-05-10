@@ -1,16 +1,18 @@
+
+
 <!doctype html>
 <html lang="en" prefix="og: http://ogp.me/ns#">
 <meta charset="utf-8">
 <meta name="p:domain_verify" content="5c892f2d442ea8b1c7009602c7833b86"/>
-<title>Hindi Poems &#8211; Inklinks of my Heart</title>
+<title>Categories &#8211; Inklinks of my Heart</title>
 <meta name="description" content="">
-<meta name="keywords" content="blog, poems">
+<meta name="keywords" content="">
 
 <!-- DSLs for various open graph languages -->
 <meta property="og:locale" content="en_US">
-<meta property="og:title" content="Hindi Poems &#8211; Inklinks of my Heart">
-<meta property="og:description" content="">
-<meta property="og:url" content="http://localhost:4000/hindi/index.html">
+<meta property="og:title" content="Categories &#8211; Inklinks of my Heart">
+<meta property="og:description" content="{% for category in site.categories %}      {% capture category_name %}{{ category | first }}{% endcapture %}         ...">
+<meta property="og:url" content="http://localhost:4000/categories/">
 <meta property="og:site_name" content="Inklinks of my Heart">
 
 
@@ -18,7 +20,7 @@
 
 
 <link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Inklinks of my Heart Feed">
-<link rel="canonical" href="http://localhost:4000/hindi/index.html" />
+<link rel="canonical" href="http://localhost:4000/categories/" />
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
@@ -115,31 +117,42 @@
     </header>
 
 
-    <div id="bump">
-        <section class="article archive">
-          <article class="archive-wrap">
-                 <lh><h2><span class="bb">Hindi Poems</span></h2></lh><br><br>
-                 <ul class="post-list">
-                  
-                    
-                      
-                      
-                        <li id="yApril 2020">April 2020 hindi</li>
-                         
-                      
-                        <li>
-                          <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-                              <h3><a href="http://localhost:4000/hindi/%E0%A4%86%E0%A4%9C-%E0%A4%AE%E0%A4%A8-%E0%A4%96%E0%A4%BE%E0%A4%B2%E0%A5%80-%E0%A4%B8%E0%A4%BE-%E0%A4%B9%E0%A5%88">आज मन खाली सा है!</a></h3>
-                              <p class="date"><time datetime="2020-04-30T00:00:00+05:30" itemprop="datePublished">April 30, 2020</time></p>
-                              <p class="">आज मन खाली  सा है, ऐसा नहीं की सारे सवालो के जवाब इसे मिल गएऐसा भी नहीं की उत्तर की राह निहारते सभी गुलाब आज खिल गएऐस...</p>
-                          </div>
-                        </li>
-                  
-                
-              </ul>
-          </article>
-        </section>
-        <div class="push"></div>
+<section class="article pad-top">
+
+
+
+      <article class="wrap post">
+        <header class="post-header">
+          <hgroup>
+            <h1>Categories</h1>
+            <p class="intro"></p>
+
+          </hgroup>
+        </header>
+
+        <div id="archives">
+
+  <div class="archive-group">
+    
+    <div id="#hindi"></div>
+    <p></p>
+
+    <h3 class="category-head">hindi</h3>
+    <a name="hindi"></a>
+    
+    <article class="archive-item">
+      <h4><a href="/hindi/%E0%A4%86%E0%A4%9C-%E0%A4%AE%E0%A4%A8-%E0%A4%96%E0%A4%BE%E0%A4%B2%E0%A5%80-%E0%A4%B8%E0%A4%BE-%E0%A4%B9%E0%A5%88">आज मन खाली सा है!</a></h4>
+    </article>
+    
+  </div>
+
+</div>
+
+      </article>
+    </section>
+
+
+<div class="push"></div>
   <footer>
     <aside class="wrap">
       <ol class="prev-posts">
@@ -178,8 +191,6 @@
   <script src="http://localhost:4000/assets/js/scripts.js"></script>
 
 
-  </div></body>
+  </body>
 </html>
-
-    </div>
 

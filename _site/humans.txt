@@ -5,6 +5,6 @@ Twitter: inklinks1
 Location: New Delhi, IN
                            
 /* SITE */                         
-Last update: 2020-05-09
+Last update: 2020-05-10
 Standards: HTML, SCSS, Jekyll                        
 Software: git
