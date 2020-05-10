@@ -12,15 +12,14 @@ title: Categories
                      <div id="#{{ category_name | slugize }}"></div>
                      <p></p>
 
-                     <h3 class="category-head">{{ category_name }}</h3>
+                     <h1 class="category-head">{{ category_name }}</h1>
                      <a name="{{ category_name | slugize }}"></a>
                      <ul>
                      {% for post in site.categories[category_name] %}
                      <article class="archive-item">
                        <li>
                          <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-                             <h1><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
-                             <p class="date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></p>
+                             <h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
                              <p class="">{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 120 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
                          </div>
                        </li>
