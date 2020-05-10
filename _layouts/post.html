@@ -158,8 +158,8 @@
 
                 <a href="{{ site.baseurl }}{{ post.url }}">
                     <div class="rel">
-                        <center><h4>{{ post.title }}</h4></center>
-                        <p class="" style="font-size: 14px;">{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 60 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 60 }}{% endif %}</p>
+                        <center><h4>{{ post.title }}</h4>
+                        <p class="" style="font-size: 14px;">{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 60 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 60 }}{% endif %}</p></center>
                         <!-- <img width="100%" src="/thumbs/{{post.image.feature}}"> -->
                     </div>
                 </a>
