@@ -2,7 +2,7 @@
 layout: post-no-feature
 title: "Sometimes I think.."
 comments: true
-tags: [english, life, options]
+tags: [english, life, options, thinking, dream]
 category: english
 ---
 
