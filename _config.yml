@@ -72,3 +72,4 @@ sass:
 permalink: '/:categories/:title'
 include:
   - .htaccess
+  
