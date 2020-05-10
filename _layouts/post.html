@@ -131,11 +131,9 @@
         {% endif %}
         </h4>
       </div>
-
-      <hr>
       
       <div class="rect">
-
+        <h4>Also Read:</h4>
         {% assign maxRelated = 4 %}
         {% assign minCommonTags =  1 %}
         {% assign maxRelatedCounter = 0 %}
@@ -162,7 +160,7 @@
                 <a href="{{ site.baseurl }}{{ post.url }}">
                     <div class="rel">
                         <h4>{{ post.title }}</h4>
-                        <p class="" style="font-size: 14px;">{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 120 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+                        <p class="" style="font-size: 14px;">{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 80 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 80 }}{% endif %}</p>
                         <!-- <img width="100%" src="/thumbs/{{post.image.feature}}"> -->
                     </div>
                 </a>

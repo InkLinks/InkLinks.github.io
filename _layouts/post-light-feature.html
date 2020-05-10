@@ -100,7 +100,8 @@
         </div>
       </center>
 
-      <br>
+        
+        <br>
 
         <div  style="display: inline-block;min-width:100%;">
           <h4>
@@ -112,17 +113,16 @@
         {% endif %}
         </h4>
       </div>
+      
+      <div class="rect">
+        <h4>Also Read:</h4>
+        {% assign maxRelated = 4 %}
+        {% assign minCommonTags =  1 %}
+        {% assign maxRelatedCounter = 0 %}
 
-      <hr>
-      <div class="relatedPosts">
-
-      <h4>You May Also Enjoy</h4>
-
-      {% assign maxRelated = 4 %}
-      {% assign minCommonTags =  2 %}
-      {% assign maxRelatedCounter = 0 %}
 
         {% for post in site.posts %}
+
 
           {% assign sameTagCount = 0 %}
           {% assign commonTags = '' %}
@@ -138,17 +138,21 @@
           {% endfor %}
 
           {% if sameTagCount >= minCommonTags %}
-            <div>
-            <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
-            </div>
+
+                <a href="{{ site.baseurl }}{{ post.url }}">
+                    <div class="rel">
+                        <h4>{{ post.title }}</h4>
+                        <p class="" style="font-size: 14px;">{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 80 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 80 }}{% endif %}</p>
+                        <!-- <img width="100%" src="/thumbs/{{post.image.feature}}"> -->
+                    </div>
+                </a>
+
             {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
             {% if maxRelatedCounter >= maxRelated %}
               {% break %}
             {% endif %}
           {% endif %}
-
         {% endfor %}
-
       </div>
 
       {% if page.comments %}
