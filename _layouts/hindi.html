@@ -9,7 +9,7 @@
                     {% if post.categories contains "hindi" %}
                       {% assign currentdate = post.date | date: "%B %Y" %}
                       {% if currentdate != date %}
-                        <li id="y{{currentdate}}">{{ currentdate }}</li>
+                        <li id="y{{currentdate}}">{{ currentdate }} {{post.categories}}</li>
                         {% assign date = currentdate %} 
                       {% endif %}
                         <li>
