@@ -45,11 +45,10 @@ links:
     url: /english
   - title: Hindi Poems
     url: /hindi  
-  - title: Search Poem
+  - title: categories
+    url: /categories
+  - title: Search
     url: /search
-    category:
-      title: english
-      New field 10: /english
 timezone: Asia/Kolkata
 future: true
 highlighter: rouge
