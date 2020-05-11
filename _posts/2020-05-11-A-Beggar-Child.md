@@ -9,9 +9,9 @@ image:
 ---
 
 When I asked a child begging for food,<br />
-wrapped in morose clothes, there he stood.<br />
+wrapped in morose clothes, there she stood.<br />
 "Why do you beg? Don't you go to any school?"<br />
-He cried before me,<br />
+She cried before me,<br />
 
 "Ah! was a fine day with a peaceful morning,<br />
 And we were ready, waiting for my granny to pass.<br />
