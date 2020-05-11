@@ -8,7 +8,7 @@ category: english
 
 “I have a story to tell,<br/> 
 I was standing next to a deep well,<br/>
-Believe me! I was so deep,<br/>
+Believe me! It was so deep,<br/>
 perhaps it went down to hell<br/>
 
 I was too afraid to peep in,<br/>
