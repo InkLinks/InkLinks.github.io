@@ -1,9 +1,11 @@
 ---
-layout: post-no-feature
+layout: post
 title: "You are my hero Dad!"
 comments: true
 tags: [english, parenting, father, fatherhood, dream]
 category: english
+image: 
+        feature: hero_dad.jpg
 ---
 
 “I have a story to tell,<br/> 
@@ -37,3 +39,5 @@ I really felt like a hero on that fine day,<br/>
 yeah I know I did not do anything at all,<br/>
 but you know what?, actually she made my day.<br/>
 {: .text-justify}
+
+Photo by [Brett Sayles](https://www.pexels.com/@brett-sayles) from Pexels
