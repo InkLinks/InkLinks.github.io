@@ -8,7 +8,7 @@ description: Poverty is the biggest tradegy in this world. Every year around 9 m
 image: 
         feature: poor.jpg
 ---
-<p align="center">
+
 When I asked a child begging for food,<br />
 wrapped in morose clothes, there she stood.<br />
 "Why do you beg? Don't you go to any school?"<br />
@@ -39,9 +39,7 @@ We cried and shouted as loud as we could.<br />
 But no one listened to our lamentings.<br />
 as my father died due to hunger<br />
 because DEATH laughed even louder."<br />
-<br />
+
 -Inklinks <br/>
 
 Thanks to [namo deet](//www.instagram.com/namodeet/) from Pexels for photo.
-
-</p>
