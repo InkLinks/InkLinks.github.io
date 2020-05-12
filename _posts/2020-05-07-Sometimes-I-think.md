@@ -4,6 +4,7 @@ title: "Sometimes I think.."
 comments: true
 tags: [english, life, options, thinking, dream, heart]
 category: english
+description: We can be all we wwant in our life, we just need to try. 
 ---
 
 Sometimes... <br/>

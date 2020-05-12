@@ -4,6 +4,7 @@ title: "A Beggar Child"
 comments: true
 tags: [english, poverty, death, sad]
 category: english
+description: Poverty is the biggest tradegy in this world. Every year arounf 9 million people die of hunger in the world. PLease help poors and let's make this world a better place to live in.
 image: 
         feature: poor.jpg
 ---

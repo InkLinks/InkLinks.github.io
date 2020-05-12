@@ -4,6 +4,7 @@ title: "You are my hero Dad!"
 comments: true
 tags: [english, parenting, father, fatherhood, dream]
 category: english
+description: A father has many responsibilities on his shoulder and He is always the first hero of a girl. This poem engraves such priceless father-daughter bond along with its own flavoured fun. You will surely love it.
 image: 
         feature: hero_dad.jpg
 ---
