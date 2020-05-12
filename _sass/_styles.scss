@@ -298,16 +298,18 @@ header.site-header nav {
         min-height: 360px;
         height: 50vh;
         width: 100%;
-        position: absolute; 
-        z-index: -9999;
-        opacity: .7; 
         max-height: 800px;
+        background-position: center center;
+        background-size: cover;
+        vertical-align: middle;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
+        position: relative;
         top: 0;
+        z-index: -1;
         img {
-            max-height: 1000px;
+            max-height: 800px;
         }
     }
     
