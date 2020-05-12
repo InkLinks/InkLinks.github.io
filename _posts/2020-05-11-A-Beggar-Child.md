@@ -39,4 +39,4 @@ But no one listened to our lamentings.<br />
 as my father died due to hunger<br />
 because DEATH laughed even louder."<br />
 
-Thanks to [namo deet](https://www.instagram.com/namodeet/) from Pexels for photo.
+Thanks to [namo deet](//www.instagram.com/namodeet/) from Pexels for photo.
