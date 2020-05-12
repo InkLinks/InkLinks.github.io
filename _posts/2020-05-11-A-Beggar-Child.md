@@ -13,7 +13,7 @@ wrapped in morose clothes, there she stood.<br />
 "Why do you beg? Don't you go to any school?"<br />
 She cried before me,<br />
 
-"Ah! was a fine day with a peaceful morning,<br />
+"Ah! It was a fine day with a peaceful morning,<br />
 And we were ready, waiting for my granny to pass.<br />
 We knew it had was her time,<br />
 as we were not left with even a single dime.<br />
