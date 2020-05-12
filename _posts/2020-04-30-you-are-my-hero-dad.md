@@ -40,7 +40,8 @@ I really felt like a hero on that fine day,<br/>
 yeah I know I did not do anything at all,<br/>
 but you know what?, actually she made my day.<br/>
 <br />
--Inklinks
-<br />
+-Inklinks<br />
+
 Photo by [Brett Sayles](//www.pexels.com/@brett-sayles) from Pexels
+
 </p>
