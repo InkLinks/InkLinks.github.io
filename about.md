@@ -6,7 +6,7 @@ image:
   feature: soft-trees.jpg
 ---
 
-Inklinks writes poems in two languages, English and Hindi. He has written many poems for annual day functions and for many other occasions in his school days. He got his motivations to make writing a hobby from his mother when she praised after reading one poem Inklinks wrote in his free time just for fun. Inklinks has B.Tech. degree in Computer Science while currently being a final year M.Tech. student. Inklinks is author's pen-name.
+Inklinks is author's Pen Name. Inklinks's journey of writing poems started from his mother encouragement and his friends's good feedback when he used to write poems in his school days. Inklinks wrote his first poem about his mother which was appreciated among all his relatives and friends this made inklinks take his instrest in poem writing seriously and he started writing regularly. Inklinks aspires to be a famous poet and writer. Inklinks writes in English as well as Hindi.
 
 ### The pen-name
 Inklinks was suggested as a pen-name by author's most special friend. Inklinks refers to the links connected by ink, which is the foundations of writing. One can also take the meaning of Inklinks as words. We form words by making links of inks on paper. These words together make a poem.
