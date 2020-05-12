@@ -4,9 +4,9 @@ title: "Sometimes I think.."
 comments: true
 tags: [english, life, options, thinking, dream, heart]
 category: english
-description: We can be all we wwant in our life, we just need to try. 
+description: We can be all we want in our life, we just need to try. 
 ---
-
+<p align="center">
 Sometimes... <br/>
 I think I can write,<br/>
 I think I should sing.<br/>
@@ -37,4 +37,6 @@ Well, It is never too late to start my friend,<br/>
 if the start is good, you will reach a fabulous end.<br/>
 I will become everything in my life, all I want,<br/>
 You wait and watch, as I triumph<br/>
-{: .text-justify}
+<br />
+-Inklinks
+</p>

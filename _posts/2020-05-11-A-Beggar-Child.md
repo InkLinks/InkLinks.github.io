@@ -4,11 +4,11 @@ title: "A Beggar Child"
 comments: true
 tags: [english, poverty, death, sad]
 category: english
-description: Poverty is the biggest tradegy in this world. Every year arounf 9 million people die of hunger in the world. PLease help poors and let's make this world a better place to live in.
+description: Poverty is the biggest tradegy in this world. Every year around 9 million people die of hunger in the world. Please help poors and let's make this world a better place to live in.
 image: 
         feature: poor.jpg
 ---
-
+<p align="center">
 When I asked a child begging for food,<br />
 wrapped in morose clothes, there she stood.<br />
 "Why do you beg? Don't you go to any school?"<br />
@@ -39,5 +39,7 @@ We cried and shouted as loud as we could.<br />
 But no one listened to our lamentings.<br />
 as my father died due to hunger<br />
 because DEATH laughed even louder."<br />
-
+<br />
+-Inklinks <br/>
 Thanks to [namo deet](//www.instagram.com/namodeet/) from Pexels for photo.
+</p>

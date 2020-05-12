@@ -8,7 +8,7 @@ description: A father has many responsibilities on his shoulder and He is always
 image: 
         feature: hero_dad.jpg
 ---
-
+<p align="center">
 “I have a story to tell,<br/> 
 I was standing next to a deep well,<br/>
 Believe me! It was so deep,<br/>
@@ -39,6 +39,8 @@ As she left to make a fort out of clay<br/>
 I really felt like a hero on that fine day,<br/>
 yeah I know I did not do anything at all,<br/>
 but you know what?, actually she made my day.<br/>
-{: .text-justify}
-
+<br />
+-Inklinks
+<br />
 Photo by [Brett Sayles](//www.pexels.com/@brett-sayles) from Pexels
+</p>

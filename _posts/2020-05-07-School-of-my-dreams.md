@@ -5,7 +5,7 @@ comments: true
 tags: [english, life, options, thinking, dream, chocolate, school]
 category: english
 ---
-
+<p align="center">
 Dreams, I see very rarely,<br/>
 But I remember them very fairly.<br/>
 One night I saw a lovely dream,<br/>
@@ -40,4 +40,6 @@ That's the joy of life I seek,<br/>
 My whole life not days or weeks.<br/>
 That's the freedom, I seek,<br/>
 I want to spend time laughing up to cheeks.<br/>
-{: .text-justify}
+<br />
+-Inklinks
+</p>
