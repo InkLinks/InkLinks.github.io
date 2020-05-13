@@ -43,8 +43,3 @@ because DEATH laughed even louder."<br />
 -Inklinks <br/>
 <br />
 </p>
-<p align="center">
-
-Thanks to <//www.instagram.com/namodeet/> 
-
-</p>
