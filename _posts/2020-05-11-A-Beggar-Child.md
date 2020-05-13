@@ -16,7 +16,7 @@ She cried before me,<br />
 <br />
 "Ah! It was a fine day with a peaceful morning,<br />
 And we were ready, waiting for my granny to pass.<br />
-We knew it had was her time,<br />
+We knew it was her time,<br />
 as we were not left with even a single dime.<br />
 to feed her or to fill our bellies for that matter.<br />
 We were the poorest in all of the world.<br />
