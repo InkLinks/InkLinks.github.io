@@ -5,7 +5,7 @@ comments: true
 tags: [english, life, options, thinking, dream, chocolate, school]
 category: english
 ---
-<p align="center">
+<p align="left">
 Dreams, I see very rarely,<br />
 But I remember them very fairly.<br />
 One night I saw a lovely dream,<br />
