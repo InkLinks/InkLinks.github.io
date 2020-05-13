@@ -45,6 +45,6 @@ because DEATH laughed even louder."<br />
 </p>
 <p align="center">
 
-Thanks to [namo deet](//www.instagram.com/namodeet/) from Pexels for photo.
+Thanks to <//www.instagram.com/namodeet/> 
 
 </p>
