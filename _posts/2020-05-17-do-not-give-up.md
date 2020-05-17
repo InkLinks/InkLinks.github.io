@@ -26,3 +26,4 @@ comes a warm morning with a bright shine.<br />
 <br />
 -Inklinks
 </p>
+photo credit: [Brian McGowan](https://unsplash.com/photos/7OabDHeImsA)
