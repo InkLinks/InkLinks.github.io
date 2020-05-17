@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "You are my hero Dad!"
+title: "Do not give up yet"
 comments: true
 tags: [english, parenting, father, fatherhood, dream]
 category: english
