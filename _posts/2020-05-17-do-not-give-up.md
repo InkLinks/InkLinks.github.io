@@ -6,7 +6,7 @@ tags: [english, parenting, father, fatherhood, dream]
 category: english
 description: We are going through a trying time, but we need to stay strong and fight with the current situation. Just do not give up. We will win for sure. Stay safe and stay home.
 image: 
-        feature: hero_dad.jpg
+        feature: covid.jpg
 ---
 <p align="center">
 Hang in there you,<br />
