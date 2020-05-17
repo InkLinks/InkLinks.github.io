@@ -12,7 +12,7 @@ image:
 Hang in there you,<br />
 It is not a time to give up yet,<br />
 We are so close to success,<br />
-OH! plaese do not be upset.<br />
+OH! please do not be upset.<br />
 <br />
 for every path to victory,<br />
 is strewed with hurdles,<br />
