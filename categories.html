@@ -6,6 +6,7 @@ title: Categories
 
 <div class="container" style="width: 100%;min-width: 100%;">
 {% include site-aside.html align="left" %}
+<hr>
 {% for category in site.tags %}
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
