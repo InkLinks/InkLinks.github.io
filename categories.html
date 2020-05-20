@@ -1,16 +1,12 @@
 ---
-layout: cat-page
+layout: page
 permalink: /categories/
 title: Categories
 ---
 
-<div id="main" style="margin: 0 auto;">
-  <div id="sidebar" style="width: 30%; float: left;">
-    {% include site-aside.html %}
-  </div>
-  <div id="page-wrap" style="width: 65%; margin-left: 20px;">
-{% for category in site.tags %}
-  <hr>
+
+<div id="archives">
+{% for category in site.categories %}
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <div id="#{{ category_name | slugize }}"></div>
@@ -18,7 +14,7 @@ title: Categories
 
     <h3 class="category-head">{{ category_name }}</h3>
     <a name="{{ category_name | slugize }}"></a>
-    {% for post in site.tags[category_name] %}
+    {% for post in site.categories[category_name] %}
     <article class="archive-item">
       <h3><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h3>
       <p class="date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished" style="font-size: 15px;">( {{ post.date | date: "%B %d, %Y" }} )</time>
@@ -26,6 +22,5 @@ title: Categories
     </article>
     {% endfor %}
   </div>
-{% endfor %}    
-  </div>
+{% endfor %}
 </div>
