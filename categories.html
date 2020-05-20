@@ -4,8 +4,26 @@ permalink: /categories/
 title: Categories
 ---
 
+<style>
+  #main { 
+      margin: 0 auto;
+  }
+  #sidebar    {
+      width: 30%;
+      float: left;
+  }
 
-{% include site-aside.html %}
+  #page-wrap  {
+      width: 65%;
+      margin-left: 20px;
+  }
+</style>
+
+<div id="main">
+  <div id="sidebar">
+    {% include site-aside.html %}
+  </div>
+  <div id="page-wrap">
 {% for category in site.tags %}
   <hr>
   <div class="archive-group">
@@ -23,4 +41,6 @@ title: Categories
     </article>
     {% endfor %}
   </div>
-{% endfor %}
+{% endfor %}    
+  </div>
+</div>
