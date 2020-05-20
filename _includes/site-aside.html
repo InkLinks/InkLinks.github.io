@@ -3,7 +3,6 @@
     <section class="">
       <h3>Index</h3>
       {% for item in site.tags %}
-        <li class="">
           <a href="#{{ item | first | slugify }}" title="Category - {{ item | first }}">
           <div class="card" style="width: 18rem;">
             <div class="card-body">
@@ -11,7 +10,6 @@
             </div>
           </div>
           </a>
-        </li>
       {% endfor %}
     </section>
 
