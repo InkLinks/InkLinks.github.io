@@ -4,8 +4,8 @@ permalink: /categories/
 title: Categories
 ---
 
+<div id="archives" style="width: 100%;min-width: 100%;">
 {% include site-aside.html align="left" %}
-<div id="archives">
 {% for category in site.tags %}
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
