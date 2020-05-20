@@ -4,12 +4,9 @@
       <h3>Index</h3>
       {% for item in site.tags %}
           <a href="#{{ item | first | slugify }}" title="Category - {{ item | first }}">
-          <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">{{ item | first }}</h5>
-            </div>
-          </div>
+              <h5 class="badge badge-pill badge-dark">{{ item | first }}</h5>
           </a>
+        </li>
       {% endfor %}
     </section>
 
