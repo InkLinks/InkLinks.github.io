@@ -2,7 +2,11 @@
 
     <section class="section  section--category-index">
       <h3>Index</h3>
-      {% include nav-categories.html %}
+      {% for item in site.tags %}
+        <li class="item  item--category">
+            <a href="#{{ item | first | slugify }}" title="Category - {{ item | first }}">{{ item | first }}</a>
+        </li>
+      {% endfor %}
     </section>
 
 
