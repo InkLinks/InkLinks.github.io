@@ -6,8 +6,8 @@ title: Categories
 
 <div class="container" style="width: 100%;min-width: 100%;">
 {% include site-aside.html %}
-<hr>
 {% for category in site.tags %}
+  <hr>
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <div id="#{{ category_name | slugize }}"></div>
